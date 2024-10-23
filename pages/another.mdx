@@ -29,3 +29,18 @@ export const Counter = () => {
 import Counters from '../components/counters'
 
 <Counters />
+
+import Sidebar from '../components/sidebar';
+
+const AnotherPage = () => {
+  return (
+    <div>
+      <Sidebar />
+      <main>
+        {/* Existing content here */}
+      </main>
+    </div>
+  );
+};
+
+export default AnotherPage;
